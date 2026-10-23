@@ -1,0 +1,840 @@
+{
+  "revision": "R1",
+  "cadquery_version": "2.7.0",
+  "units": "mm",
+  "intersection_threshold_mm3": 0.005,
+  "status": "PASS for reference geometry; physical interfaces unverified",
+  "failures": [],
+  "solids": {
+    "main_chassis": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 217.341,
+      "assembly_bounds_mm": [
+        230.0,
+        176.0,
+        61.243
+      ]
+    },
+    "front_panel": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 75.783,
+      "assembly_bounds_mm": [
+        230.0,
+        90.0,
+        61.243
+      ]
+    },
+    "top_cover": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 59.576,
+      "assembly_bounds_mm": [
+        230.0,
+        85.65,
+        8.0
+      ]
+    },
+    "tb_clamp_left": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 5.929,
+      "assembly_bounds_mm": [
+        22.0,
+        86.7,
+        45.2
+      ]
+    },
+    "tb_clamp_right": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 5.929,
+      "assembly_bounds_mm": [
+        22.0,
+        86.7,
+        45.2
+      ]
+    },
+    "a4988_edge_clip_1": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 0.149,
+      "assembly_bounds_mm": [
+        8.0,
+        7.7,
+        4.4
+      ]
+    },
+    "a4988_edge_clip_2": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 0.149,
+      "assembly_bounds_mm": [
+        8.0,
+        7.7,
+        4.4
+      ]
+    },
+    "joystick_spacer_1": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 0.038,
+      "assembly_bounds_mm": [
+        6.0,
+        6.324,
+        3.756
+      ]
+    },
+    "joystick_spacer_2": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 0.038,
+      "assembly_bounds_mm": [
+        6.0,
+        6.324,
+        3.756
+      ]
+    },
+    "joystick_spacer_3": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 0.038,
+      "assembly_bounds_mm": [
+        6.0,
+        6.324,
+        3.756
+      ]
+    },
+    "joystick_spacer_4": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_cm3": 0.038,
+      "assembly_bounds_mm": [
+        6.0,
+        6.324,
+        3.756
+      ]
+    }
+  },
+  "collisions": [],
+  "minimum_clearances_mm": {
+    "A4988 to FEET": 48.0521,
+    "A4988 to JOYSTICK": 71.342,
+    "A4988 to LCD": 48.267,
+    "A4988 to TB6600": 9.0,
+    "A4988 to UNO": 7.66,
+    "FEET to JOYSTICK": 31.49,
+    "FEET to LCD": 36.0974,
+    "FEET to TB6600": 10.0,
+    "FEET to UNO": 10.0,
+    "JOYSTICK to LCD": 49.163,
+    "JOYSTICK to TB6600": 27.4654,
+    "JOYSTICK to UNO": 109.5501,
+    "LCD to TB6600": 28.8751,
+    "LCD to UNO": 43.2686,
+    "TB6600 to UNO": 56.66
+  },
+  "meshes": {
+    "main_chassis": {
+      "triangles": 34012,
+      "welded_vertices": 16926,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 217338.4669,
+      "bounds_mm": [
+        230.0,
+        176.0,
+        61.243
+      ],
+      "watertight": true,
+      "volume_relative_error_vs_brep": 9.83457254930693e-06
+    },
+    "front_panel": {
+      "triangles": 15582,
+      "welded_vertices": 7781,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 75783.5864,
+      "bounds_mm": [
+        230.0,
+        97.863,
+        56.082
+      ],
+      "watertight": true,
+      "volume_relative_error_vs_brep": 4.184497755070354e-06
+    },
+    "top_cover": {
+      "triangles": 11804,
+      "welded_vertices": 5866,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 59576.1978,
+      "bounds_mm": [
+        230.0,
+        85.65,
+        8.0
+      ],
+      "watertight": true,
+      "volume_relative_error_vs_brep": 3.833457038828577e-06
+    },
+    "tb_clamp_left": {
+      "triangles": 3382,
+      "welded_vertices": 1689,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 5929.2095,
+      "bounds_mm": [
+        22.0,
+        86.7,
+        45.2
+      ],
+      "watertight": true,
+      "volume_relative_error_vs_brep": 1.2582474551134395e-05
+    },
+    "tb_clamp_right": {
+      "triangles": 3382,
+      "welded_vertices": 1689,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 5929.2094,
+      "bounds_mm": [
+        22.0,
+        86.7,
+        45.2
+      ],
+      "watertight": true,
+      "volume_relative_error_vs_brep": 1.2565608683280202e-05
+    },
+    "a4988_edge_clip_1": {
+      "triangles": 536,
+      "welded_vertices": 268,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 149.2981,
+      "bounds_mm": [
+        8.0,
+        7.7,
+        4.4
+      ],
+      "watertight": true,
+      "volume_relative_error_vs_brep": 0.00011114694171119974
+    },
+    "a4988_edge_clip_2": {
+      "triangles": 536,
+      "welded_vertices": 268,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 149.2981,
+      "bounds_mm": [
+        8.0,
+        7.7,
+        4.4
+      ],
+      "watertight": true,
+      "volume_relative_error_vs_brep": 0.00011114694171100933
+    },
+    "joystick_spacer_1": {
+      "triangles": 1008,
+      "welded_vertices": 504,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 38.3744,
+      "bounds_mm": [
+        6.0,
+        5.998,
+        2.0
+      ],
+      "watertight": true,
+      "volume_relative_error_vs_brep": 0.00041318360300857836
+    },
+    "joystick_spacer_2": {
+      "triangles": 1008,
+      "welded_vertices": 504,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 38.3744,
+      "bounds_mm": [
+        6.0,
+        5.998,
+        2.0
+      ],
+      "watertight": true,
+      "volume_relative_error_vs_brep": 0.00041318360300857836
+    },
+    "joystick_spacer_3": {
+      "triangles": 1008,
+      "welded_vertices": 504,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 38.3744,
+      "bounds_mm": [
+        6.0,
+        5.998,
+        2.0
+      ],
+      "watertight": true,
+      "volume_relative_error_vs_brep": 0.00041318360300857836
+    },
+    "joystick_spacer_4": {
+      "triangles": 1008,
+      "welded_vertices": 504,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 38.3744,
+      "bounds_mm": [
+        6.0,
+        5.998,
+        2.0
+      ],
+      "watertight": true,
+      "volume_relative_error_vs_brep": 0.0004131836030087634
+    },
+    "lcd_fit_coupon": {
+      "triangles": 2576,
+      "welded_vertices": 1280,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 5845.803,
+      "bounds_mm": [
+        90.0,
+        46.0,
+        2.0
+      ],
+      "watertight": true
+    },
+    "joystick_pattern_coupon": {
+      "triangles": 5146,
+      "welded_vertices": 2573,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 6778.5169,
+      "bounds_mm": [
+        48.0,
+        54.0,
+        13.2
+      ],
+      "watertight": true
+    },
+    "m3_nut_coupon": {
+      "triangles": 3716,
+      "welded_vertices": 1848,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 11071.1949,
+      "bounds_mm": [
+        50.0,
+        24.0,
+        10.0
+      ],
+      "watertight": true
+    },
+    "rear_ports_coupon": {
+      "triangles": 68,
+      "welded_vertices": 32,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 3975.0,
+      "bounds_mm": [
+        68.0,
+        3.0,
+        26.0
+      ],
+      "watertight": true
+    },
+    "m3_pilot_coupon": {
+      "triangles": 2540,
+      "welded_vertices": 1272,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 10235.4723,
+      "bounds_mm": [
+        58.0,
+        18.0,
+        10.0
+      ],
+      "watertight": true
+    },
+    "optional_tpu_foot": {
+      "triangles": 500,
+      "welded_vertices": 252,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 615.497,
+      "bounds_mm": [
+        14.0,
+        13.996,
+        4.0
+      ],
+      "watertight": true
+    }
+  },
+  "step_roundtrip": {
+    "main_chassis": {
+      "valid": true,
+      "volume_relative_error": 6.749006056153796e-14,
+      "solid_count": 1
+    },
+    "front_panel": {
+      "valid": true,
+      "volume_relative_error": 1.6033683067930902e-12,
+      "solid_count": 1
+    },
+    "top_cover": {
+      "valid": true,
+      "volume_relative_error": 1.2212906789856194e-15,
+      "solid_count": 1
+    },
+    "tb_clamp_left": {
+      "valid": true,
+      "volume_relative_error": 9.66383244923504e-15,
+      "solid_count": 1
+    },
+    "tb_clamp_right": {
+      "valid": true,
+      "volume_relative_error": 1.6719964078835213e-14,
+      "solid_count": 1
+    },
+    "a4988_edge_clip_1": {
+      "valid": true,
+      "volume_relative_error": 1.123301124778305e-14,
+      "solid_count": 1
+    },
+    "a4988_edge_clip_2": {
+      "valid": true,
+      "volume_relative_error": 1.1423401268931914e-14,
+      "solid_count": 1
+    },
+    "joystick_spacer_1": {
+      "valid": true,
+      "volume_relative_error": 1.0827420192216208e-13,
+      "solid_count": 1
+    },
+    "joystick_spacer_2": {
+      "valid": true,
+      "volume_relative_error": 1.0827420192216208e-13,
+      "solid_count": 1
+    },
+    "joystick_spacer_3": {
+      "valid": true,
+      "volume_relative_error": 3.660963613710027e-13,
+      "solid_count": 1
+    },
+    "joystick_spacer_4": {
+      "valid": true,
+      "volume_relative_error": 3.660963613710026e-13,
+      "solid_count": 1
+    }
+  },
+  "access_checks": [
+    {
+      "corridor": "UNO_USB_metal_mating_envelope",
+      "blocked_by": []
+    },
+    {
+      "corridor": "UNO_DC_plug_12mm_envelope",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_terminal_tool_0",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_terminal_tool_1",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_terminal_tool_2",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_terminal_tool_3",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_terminal_tool_4",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_terminal_tool_5",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_0_0",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_0_1",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_0_2",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_0_3",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_0_4",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_0_5",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_1_0",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_1_1",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_1_2",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_1_3",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_1_4",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_terminal_tool_1_5",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_pot_tool",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_wire_0",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_power_motor_wire_0",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_wire_1",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_power_motor_wire_1",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_wire_2",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_power_motor_wire_2",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_wire_3",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_power_motor_wire_3",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_wire_4",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_power_motor_wire_4",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_wire_5",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_power_motor_wire_5",
+      "blocked_by": []
+    },
+    {
+      "corridor": "UNO_M2.5_screw_0_lid_off",
+      "blocked_by": []
+    },
+    {
+      "corridor": "UNO_M2.5_screw_1_lid_off",
+      "blocked_by": []
+    },
+    {
+      "corridor": "UNO_M2.5_screw_3_lid_off",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_clamp_screw_0_lid_off",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_clamp_screw_1_lid_off",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_clamp_screw_2_lid_off",
+      "blocked_by": []
+    },
+    {
+      "corridor": "TB_clamp_screw_3_lid_off",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_clip_screw_0_lid_off",
+      "blocked_by": []
+    },
+    {
+      "corridor": "A4988_clip_screw_1_lid_off",
+      "blocked_by": []
+    }
+  ],
+  "scope_limits": [
+    "No real hardware measurements supplied. Reference envelopes and documented assumptions only.",
+    "No physical print, assembly, strength, pull, electrical, thermal or slicer test performed.",
+    "No arbitrary cable shapes or exact vendor mouldings were simulated.",
+    "Intentional component-internal envelope overlaps are excluded from cross-component checks."
+  ],
+  "collision_pairs_checked": {
+    "printed_printed": 55,
+    "printed_component": 385,
+    "component_cross_group": 502
+  },
+  "nominal_fasteners": {
+    "reference_solids": 62,
+    "head_nut_washer_interferences": [],
+    "threaded_shafts_excluded_from_pilot_intersections": true
+  },
+  "joystick_sweep": {
+    "configurations": 170,
+    "max_tilt_deg": 22.0,
+    "press_travel_mm": 1.0,
+    "worst_intersection_mm3": 0.0,
+    "minimum_model_gap_mm": 1.0563
+  },
+  "lid_removal": [
+    {
+      "lift_mm": 0.1,
+      "max_intersection_mm3": 0
+    },
+    {
+      "lift_mm": 1,
+      "max_intersection_mm3": 0
+    },
+    {
+      "lift_mm": 3,
+      "max_intersection_mm3": 0
+    },
+    {
+      "lift_mm": 6,
+      "max_intersection_mm3": 0
+    },
+    {
+      "lift_mm": 12,
+      "max_intersection_mm3": 0
+    },
+    {
+      "lift_mm": 30,
+      "max_intersection_mm3": 0
+    },
+    {
+      "lift_mm": 60,
+      "max_intersection_mm3": 0
+    }
+  ],
+  "component_removal_sampled_paths": {
+    "UNO": [
+      {
+        "translation_mm": [
+          0,
+          0,
+          1.1
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          -4,
+          1.1
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          -8,
+          1.1
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          -8,
+          6
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          -8,
+          35
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          -8,
+          80
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      }
+    ],
+    "A4988": [
+      {
+        "translation_mm": [
+          0,
+          1,
+          0
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          1,
+          1
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          1,
+          6
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          1,
+          35
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          1,
+          80
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      }
+    ],
+    "TB6600": [
+      {
+        "translation_mm": [
+          0,
+          0,
+          1
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          0,
+          6
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          0,
+          35
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      },
+      {
+        "translation_mm": [
+          0,
+          0,
+          80
+        ],
+        "max_intersection_mm3": 0,
+        "blocked_by": []
+      }
+    ]
+  },
+  "driver_clearances_mm": {
+    "TB_top_to_lid": 14.243,
+    "TB_top_to_lid_rib": 9.243,
+    "TB_fin_tip_to_floor": 7.0,
+    "A4988_sink_to_lid": 28.543
+  },
+  "main_assembly_roundtrip": {
+    "valid": true,
+    "solids": 108,
+    "volume_relative_error": 2.2272746566470396e-13
+  }
+}

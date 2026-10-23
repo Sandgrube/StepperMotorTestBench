@@ -1,0 +1,95 @@
+{
+  "revision": "R1",
+  "units": "mm",
+  "enclosure": {
+    "width": 230.0, "depth": 176.0, "height":64.2427726609,"front_height": 35.0,
+    "panel_run": 90.0, "front_angle_deg": 18.0,
+    "wall": 2.4, "floor": 3.0, "panel_thickness": 3.0,
+    "cover_thickness": 3.0, "corner_radius": 4.0,
+    "cover_clearance": 0.35, "pcb_clearance": 0.5,
+    "panel_feet": [[10,12],[220,12],[10,78],[220,78]],
+    "lid_screws": [[6.5,169],[223.5,169]],
+    "rubber_feet": [[21,20],[209,20],[21,156],[209,156]],
+    "rubber_foot_diameter": 14.0, "rubber_foot_height": 4.0
+  },
+  "fasteners": {
+    "m3_clearance": 3.4, "m3_pilot": 2.6,
+    "m3_nut_af": 5.9, "m3_nut_height": 2.7,
+    "m3_head_diameter": 6.4, "m25_pilot": 2.15,
+    "m25_clearance": 2.8
+  },
+  "uno": {
+    "origin_x": 14.0, "rear_board_edge_y": 169.5, "pcb_bottom_z": 10.0,
+    "pcb_thickness": 1.6,
+    "outline": [[1,0],[65.04,0],[66.04,1],[66.04,2.54],[68.58,5.08],[68.58,37.846],[66.04,40.386],[66.04,51.816],[64.516,53.34],[1,53.34],[0,52.34],[0,1]],
+    "holes": [[66.04,35.56],[66.04,7.62],[15.24,50.8],[13.97,2.54]],
+    "omit_screw_index": 2,
+    "usb": {"u_min": -6.34,"u_max": 9.41,"v_min":32.2,"v_max":44.0,"height":10.8},
+    "dc": {"u_min":-1.8034,"u_max":11.684,"v_min":3.302,"v_max":12.294,"height":11.0},
+    "status": "outline, holes and XY connector footprints extracted from official UNO-TH_Rev3e.brd; connector heights are conservative assumptions"
+  },
+  "lcd": {
+    "center_x": 78.0, "center_t": 47.5,
+    "pcb_width":80.0,"pcb_depth":36.0,"pcb_thickness":1.6,
+    "hole_offsets":[[-37.5,-15.5],[37.5,-15.5],[-37.5,15.5],[37.5,15.5]],
+    "hole_diameter":2.8,"bezel_width":71.2,"bezel_depth":25.2,
+    "view_width":66.0,"view_depth":16.0,
+    "window_width":66.8,"window_depth":17.8,
+    "bezel_pocket_width":72.4,"bezel_pocket_depth":26.4,
+    "bezel_face_n":-1.0,"pcb_front_n":-9.6,
+    "backpack_width":42.0,"backpack_depth":19.0,"backpack_bottom_n":-24.5,
+    "status":"80x36 class: sourced outline; 75x31 pattern and 71.2x25.2 bezel are reference geometry, not confirmation of the user's LCD; confirm backpack and hole diameter"
+  },
+  "joystick": {
+    "center_x":180.0,"center_t":47.5,
+    "pcb_width":26.0,"pcb_depth":34.0,"pcb_thickness":1.6,
+    "pcb_front_n":-15.2,"mount_spacer":2.0,
+    "hole_offsets":[[-10,-13],[10,-13],[-10,13],[10,13]],
+    "hole_diameter":3.3,"shaft_offset":[0,0],
+    "opening_diameter":29.2,"mechanism_width":18.0,"mechanism_depth":20.0,
+    "mechanism_height":14.0,"pivot_n":-4.2,
+    "knob_profile":[[0,5.8],[8,5.8],[13,7.8],[12,14.8],[9,16.8],[0,16.8]],
+    "travel_deg":22.0,"press_travel":1.0,"hand_radius":27.0,
+    "status":"26x34 PCB class; hole coordinates, shaft offset, pivot and knob contour/travel are explicit unverified engineering assumptions: fit coupon and real movement test required"
+  },
+  "tb6600": {
+    "x":124.0,"y":94.0,"bottom_z":10.0,
+    "length":96.0,"body_depth":57.0,"overall_depth":71.0,"height":37.0,
+    "fin_height":6.0,"fin_pitch":6.0,"fin_width":2.0,
+    "terminal_x_margin":13.0,"terminal_depth":14.0,"terminal_top_offset":-1.0,
+    "terminal_screw_y_offset":63.0,"terminal_pitch":5.08,
+    "mounting_holes":[],"clamp_x":[130.0,214.0],
+    "clamp_foot_screws":[[138,92],[138,169],[206,92],[206,169]],
+    "clamp_clearance":0.6,"clamp_pad_thickness":1.0,
+    "status":"Handson MDU1059 / common DRI0043-style 96x71x37 overall class; published 96x56x33 specification conflicts with illustrated 96x71x36 envelope; no unverified screw-hole pattern used"
+  },
+  "a4988": {
+    "carrier_x":75.0,"carrier_y":107.0,"carrier_width":40.0,"carrier_depth":60.0,
+    "pcb_bottom_z":10.0,"pcb_thickness":1.6,
+    "module_center_x":95.0,"module_center_y":136.0,
+    "module_width":15.24,"module_depth":20.32,"module_thickness":1.6,
+    "socket_height":8.5,"row_pitch":12.7,"pin_pitch":2.54,
+    "heatsink_width":10.0,"heatsink_depth":10.0,"heatsink_height":10.0,
+    "terminal_x":79.76,"terminal_y":158.0,"terminal_width":30.48,"terminal_depth":8.0,"terminal_height":10.0,
+    "pot_x":95.0,"pot_y":128.0,
+    "capacitor_x":109.0,"capacitor_y":143.0,"capacitor_diameter":10.0,"capacitor_height":16.0,
+    "clip_centers":[[76.8,169.5],[113.2,169.5]],
+    "status":"Pololu 1182-size 15.24x20.32, 12.7 row spacing; perfboard socket layout is specified here, not a purchased electronic shield. Verify actual clone orientation and pot position."
+  },
+  "vents": {
+    "slot_width":3.2,"slot_length":24.0,"pitch":6.0,
+    "side_y":[103,111,119,127,135,143],"side_bottom_z":15.0,"side_top_z":42.0,
+    "tb_cover_x":[145,151,157,163,169,175,181,187,193,199],"tb_cover_y":124.0,
+    "a_cover_x":[80,86,104,110],"a_cover_y":137.0
+  },
+  "access": {
+    "usb_x":45.2,"usb_z":10.5,"usb_width":16.0,"usb_height":14.5,
+    "dc_x":15.2,"dc_z":9.5,"dc_width":14.0,"dc_height":16.0,
+    "tb_rear_x":135.0,"tb_rear_z":30.0,"tb_rear_width":74.0,"tb_rear_height":15.0,
+    "a_rear_x":77.0,"a_rear_z":14.0,"a_rear_width":36.0,"a_rear_height":12.0,
+    "tb_tool_x":135.0,"tb_tool_y":153.0,"tb_tool_width":74.0,"tb_tool_depth":8.0,
+    "a_tool_x":77.0,"a_tool_y":159.0,"a_tool_width":36.0,"a_tool_depth":8.0,
+    "pot_access_diameter":8.0,
+    "status":"port/tool positions depend on reference module and connector envelopes; measure before full print"
+  }
+}

@@ -1,0 +1,5 @@
+cadquery==2.7.0
+cadquery-ocp==7.8.1.1.post1
+numpy>=2.0,<3.0
+matplotlib>=3.9,<4.0
+Pillow>=10.0

@@ -1,0 +1,14 @@
+{
+  "validated_on": "2026-10-23",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "cadquery": "2.7.0",
+  "cadquery_ocp": "7.8.1.1.post1",
+  "numpy": "2.3.5",
+  "parameter_file": "CAD/parameters/default.json",
+  "parameter_file_sha256": "6ee1ce8b2840a82818b87002d8b8ddf78c23e2014c771eab7c941a173fa73669",
+  "reproduction_entrypoint": "python CAD/editable_source/build_project.py",
+  "geometric_validation": "OpenCascade B-rep boolean and distance checks; source-STL-STEP export checks",
+  "html_quality_check": "Embedded-image, table and anchor structural audit; no browser rendering available in this runtime",
+  "physical_test": false,
+  "slicer_test": false
+}
