@@ -1,0 +1,123 @@
+{
+  "firmware_version": "2.1.0",
+  "builds": {
+    "p16": {
+      "fqbn": "lgt8fx:avr:328:variant=modelP,clock_source=internal,clock_div=2,upload_speed=57600",
+      "clock_hz": 16000000,
+      "timer_compare": 199,
+      "exit_code": 0,
+      "flash_bytes": 22494,
+      "flash_limit": 29696,
+      "static_ram_bytes": 1274,
+      "sram_limit": 2048,
+      "hex_sha256": "b94de8d72a0d2a612e7321fef6f7677ebcf0ca0e203da18a74c42602975c975b"
+    },
+    "p16_single": {
+      "fqbn": "lgt8fx:avr:328:variant=modelP,clock_source=internal,clock_div=2,upload_speed=57600",
+      "clock_hz": 16000000,
+      "timer_compare": 199,
+      "exit_code": 0,
+      "flash_bytes": 22576,
+      "flash_limit": 29696,
+      "static_ram_bytes": 1274,
+      "sram_limit": 2048
+    },
+    "p32": {
+      "fqbn": "lgt8fx:avr:328:variant=modelP,clock_source=internal,clock_div=1,upload_speed=57600",
+      "clock_hz": 32000000,
+      "timer_compare": 399,
+      "exit_code": 0,
+      "flash_bytes": 22480,
+      "flash_limit": 29696,
+      "static_ram_bytes": 1274,
+      "sram_limit": 2048,
+      "hex_sha256": "6fb627fbdd4b3015e7ba0f89396bd79df67b2244dc9aefe6f9faee17544d7082"
+    },
+    "p32_single": {
+      "fqbn": "lgt8fx:avr:328:variant=modelP,clock_source=internal,clock_div=1,upload_speed=57600",
+      "clock_hz": 32000000,
+      "timer_compare": 399,
+      "exit_code": 0,
+      "flash_bytes": 22562,
+      "flash_limit": 29696,
+      "static_ram_bytes": 1274,
+      "sram_limit": 2048
+    },
+    "d16": {
+      "fqbn": "lgt8fx:avr:328:variant=modelD,clock_source=internal,clock_div=2,upload_speed=57600",
+      "clock_hz": 16000000,
+      "timer_compare": 199,
+      "exit_code": 0,
+      "flash_bytes": 22200,
+      "flash_limit": 29696,
+      "static_ram_bytes": 1275,
+      "sram_limit": 2048,
+      "hex_sha256": "9c20ad67f222740c7d93b710009ceeda33e88612f66daead6b9c5d9edbeb84e7"
+    },
+    "d32": {
+      "fqbn": "lgt8fx:avr:328:variant=modelD,clock_source=internal,clock_div=1,upload_speed=57600",
+      "clock_hz": 32000000,
+      "timer_compare": 399,
+      "exit_code": 0,
+      "flash_bytes": 22186,
+      "flash_limit": 29696,
+      "static_ram_bytes": 1275,
+      "sram_limit": 2048,
+      "hex_sha256": "c3c45356cec77115363bd892eb47580a63747194e05267a31c77b66ad2293fef"
+    },
+    "p48_16": {
+      "fqbn": "lgt8fx:avr:328:variant=modelP48,clock_source=internal,clock_div=2,upload_speed=57600",
+      "clock_hz": 16000000,
+      "timer_compare": 199,
+      "exit_code": 0,
+      "flash_bytes": 22524,
+      "flash_limit": 29696,
+      "static_ram_bytes": 1274,
+      "sram_limit": 2048,
+      "hex_sha256": "f1ef08a8da32daaaef4474e78dba449e397f9d0b8493cd08d8fddebf79ea0a0a"
+    },
+    "p48_32": {
+      "fqbn": "lgt8fx:avr:328:variant=modelP48,clock_source=internal,clock_div=1,upload_speed=57600",
+      "clock_hz": 32000000,
+      "timer_compare": 399,
+      "exit_code": 0,
+      "flash_bytes": 22510,
+      "flash_limit": 29696,
+      "static_ram_bytes": 1274,
+      "sram_limit": 2048,
+      "hex_sha256": "1f57db43626e51545d35ff5f6fbc84254cc51a00f02ef4082d68a7c4a5aaa4e0"
+    }
+  },
+  "tests": {
+    "exit_code": 0,
+    "assertions": 48102230,
+    "address_sanitizer": true,
+    "undefined_behavior_sanitizer": true,
+    "leak_sanitizer": false
+  },
+  "physical_tested": false,
+  "variant_identification": "User knows LGT8F328 only; P/D/package not identified.",
+  "toolchain": {
+    "arduino_cli": "1.5.1",
+    "lgt8fx_package": "2.0.7",
+    "avr_gcc": "7.3.0-atmel3.6.1-arduino7",
+    "hd44780": "1.3.2"
+  },
+  "negative_builds": {
+    "wrong_uno_core": {
+      "fqbn": "arduino:avr:uno",
+      "correctly_rejected": true,
+      "exit_code": 1
+    },
+    "unsupported_ssop20": {
+      "fqbn": "lgt8fx:avr:328:variant=modelP_SSOP20,clock_source=internal,clock_div=2",
+      "correctly_rejected": true,
+      "exit_code": 1
+    },
+    "unsupported_8mhz": {
+      "fqbn": "lgt8fx:avr:328:variant=modelP,clock_source=internal,clock_div=4",
+      "correctly_rejected": true,
+      "exit_code": 1
+    }
+  }
+}

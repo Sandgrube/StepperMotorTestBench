@@ -1,0 +1,12 @@
+/workspace/scratch/e19f067db5b9/Stepper_Testbench_Software_LGT8F328/Stepper_Testbench_LGT8F328/App.cpp:15:2: error: #error "Select LGT8fx LGT8F328 at 16/32 MHz. Arduino Uno is the wrong core for this hardware."
+ #error "Select LGT8fx LGT8F328 at 16/32 MHz. Arduino Uno is the wrong core for this hardware."
+  ^~~~~
+
+Used library Version Path
+Wire         1.0     /workspace/scratch/e19f067db5b9/qa/arduino_toolchain/data/packages/lgt8fx/hardware/avr/2.0.7/libraries/Wire
+E2PROM               /workspace/scratch/e19f067db5b9/qa/arduino_toolchain/data/packages/lgt8fx/hardware/avr/2.0.7/libraries/E2PROM
+hd44780      1.3.2   /workspace/scratch/e19f067db5b9/qa/arduino_toolchain/user/libraries/hd44780
+
+Used platform Version Path
+lgt8fx:avr    2.0.7   /workspace/scratch/e19f067db5b9/qa/arduino_toolchain/data/packages/lgt8fx/hardware/avr/2.0.7
+Error during build: exit status 1

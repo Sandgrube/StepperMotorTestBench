@@ -1,0 +1,8 @@
+{
+  "p16": {"fqbn":"lgt8fx:avr:328:variant=modelP,clock_source=internal,clock_div=2,upload_speed=57600", "chip":"LGT8F328P", "package":"LQFP32", "clock_hz":16000000, "compare":199},
+  "p32": {"fqbn":"lgt8fx:avr:328:variant=modelP,clock_source=internal,clock_div=1,upload_speed=57600", "chip":"LGT8F328P", "package":"LQFP32", "clock_hz":32000000, "compare":399},
+  "d16": {"fqbn":"lgt8fx:avr:328:variant=modelD,clock_source=internal,clock_div=2,upload_speed=57600", "chip":"LGT8F328D", "package":"LQFP32", "clock_hz":16000000, "compare":199},
+  "d32": {"fqbn":"lgt8fx:avr:328:variant=modelD,clock_source=internal,clock_div=1,upload_speed=57600", "chip":"LGT8F328D", "package":"LQFP32", "clock_hz":32000000, "compare":399},
+  "p48_16": {"fqbn":"lgt8fx:avr:328:variant=modelP48,clock_source=internal,clock_div=2,upload_speed=57600", "chip":"LGT8F328P", "package":"LQFP48", "clock_hz":16000000, "compare":199},
+  "p48_32": {"fqbn":"lgt8fx:avr:328:variant=modelP48,clock_source=internal,clock_div=1,upload_speed=57600", "chip":"LGT8F328P", "package":"LQFP48", "clock_hz":32000000, "compare":399}
+}

@@ -1,0 +1,13 @@
+In file included from /workspace/scratch/e19f067db5b9/Stepper_Testbench_Software_LGT8F328/Stepper_Testbench_LGT8F328/App.cpp:7:0:
+/workspace/scratch/e19f067db5b9/qa/arduino_toolchain/data/packages/lgt8fx/hardware/avr/2.0.7/libraries/E2PROM/EEPROM.h:39:3: warning: #warning !!! WARNING : This EEPROM library was only tested with LGT8F328-P. [-Wcpp]
+  #warning !!! WARNING : This EEPROM library was only tested with LGT8F328-P.
+   ^~~~~~~
+/workspace/scratch/e19f067db5b9/qa/arduino_toolchain/data/packages/lgt8fx/hardware/avr/2.0.7/libraries/E2PROM/EEPROM.h:40:3: warning: #warning If you find bugs and want to improve compatibility, please, join the GitHub repository. [-Wcpp]
+  #warning If you find bugs and want to improve compatibility, please, join the GitHub repository.
+   ^~~~~~~
+In file included from /workspace/scratch/e19f067db5b9/Stepper_Testbench_Software_LGT8F328/Stepper_Testbench_LGT8F328/App.cpp:7:0:
+/workspace/scratch/e19f067db5b9/qa/arduino_toolchain/data/packages/lgt8fx/hardware/avr/2.0.7/libraries/E2PROM/EEPROM.h:49:3: warning: #warning untested LGT8F328D detected - which contains shared EEPROM with 16bits cells : ( 32bits access and SWM access will be emulated ) [-Wcpp]
+  #warning untested LGT8F328D  detected - which contains shared EEPROM with 16bits cells : ( 32bits access and SWM access will be emulated )
+   ^~~~~~~
+Sketch uses 22200 bytes (74%) of program storage space. Maximum is 29696 bytes.
+Global variables use 1275 bytes (62%) of dynamic memory, leaving 773 bytes for local variables. Maximum is 2048 bytes.

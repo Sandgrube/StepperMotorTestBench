@@ -1,0 +1,38 @@
+{
+  "html_sections": 12,
+  "html_tables": 7,
+  "broken_internal_links": [],
+  "external_assets": [],
+  "hex_files": {
+    "d16": {
+      "checksum_valid": true,
+      "highest_address_exclusive": 22200,
+      "below_reserved_flash_boundary": true
+    },
+    "p48_16": {
+      "checksum_valid": true,
+      "highest_address_exclusive": 22524,
+      "below_reserved_flash_boundary": true
+    },
+    "p48_32": {
+      "checksum_valid": true,
+      "highest_address_exclusive": 22510,
+      "below_reserved_flash_boundary": true
+    },
+    "p32": {
+      "checksum_valid": true,
+      "highest_address_exclusive": 22480,
+      "below_reserved_flash_boundary": true
+    },
+    "d32": {
+      "checksum_valid": true,
+      "highest_address_exclusive": 22186,
+      "below_reserved_flash_boundary": true
+    },
+    "p16": {
+      "checksum_valid": true,
+      "highest_address_exclusive": 22494,
+      "below_reserved_flash_boundary": true
+    }
+  }
+}

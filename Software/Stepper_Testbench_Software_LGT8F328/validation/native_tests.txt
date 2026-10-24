@@ -1,0 +1,9 @@
+settings/CRC/migration: PASS
+axes/calibration/rate and distance limits: PASS
+all 4000 rates / finite blocks / pulse completion / lease: PASS
+button gestures / continuous neutral / release gate / millis wrap: PASS
+continuous / driver selection / reverse / hold / menu / fault latches: PASS
+journey exact counts / no queued repeat / cancel / all angle presets: PASS
+low-speed startup/stop matrix: both drivers, all full-step and microstep presets: PASS
+16x2 UI buffers / all menus and faults: PASS
+PASS: 48102230 assertions (includes scheduler sweeps).
